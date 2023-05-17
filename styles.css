@@ -1,0 +1,130 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+table td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Button styles */
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#undo-button {
+  margin-top: 20px;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Undo button styles */
+#undo-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f44336;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#undo-button:hover {
+  background-color: #e53935;
+}
+
+/* Team styles */
+.team-csk {
+  background-color: #fff700; /* Yellow */
+}
+
+.team-mi {
+  background-color: #0018f4; /* Blue */
+}
+
+.team-rcb {
+  background-color: #ff0000; /* Red */
+}
+
+/* Add styles for other teams */
+.team-srh {
+  background-color: #f86e0c; /* Orange */
+}
+
+.team-gt {
+  background-color: #a17d42; /* Brown */
+}
+
+.team-lsg {
+  background-color: #00eaff; /* Maroon */
+}
+
+.team-kkr {
+  background-color: #4B388E; /* Purple */
+}
+
+.team-dc {
+  background-color: #2f5ab9; /* Dark Blue */
+}
+
+.team-pbks {
+  background-color: #e93535; /* Dark Red */
+}
+
+.team-rr {
+  background-color: #ff00ee; /* Dark Orange */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  
+  button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  
+  #undo-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
